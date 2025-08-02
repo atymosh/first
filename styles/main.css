@@ -1,1 +1,76 @@
-@import url('reset.css');
+@import url("reset.css");
+@import url(../fonts/fonts.css);
+
+body {
+  margin: 0;
+}
+
+html {
+  /* scrollbar-gutter: stable; */
+}
+
+.header-nav {
+  width: 1440px; /* твоя ширина макета */
+  /* position: relative; достатньо, якщо не хочеш fixed */
+  /* left: 50vw;
+  transform: translateX(-50%); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 106px;
+  /* border: 1px solid #000; для візуального відстеження */
+  font-family: Play-regular;
+}
+.header-logo {
+  margin-left: 148px;
+  margin-top: 4px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+}
+.nav-social-links {
+  width: 250px;
+  height: 50px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.main-clinic {
+  width: 1260px;
+  height: 582px;
+  margin: auto;
+}
+.main-clinic-text {
+  font-family: Roboto-regular;
+  font-size: 18px;
+  color: #000;
+  margin-left: 124px;
+  margin-top: 19px;
+}
+.main-clinic-title {
+  width: 300px;
+  font-family: Play-bold;
+  font-size: 140px;
+  color: #2b7fff;
+  margin-left: 124px;
+  margin-top: 4px;
+}
+.main-clinic-beauty {
+  font-family: Play-bold;
+  font-size: 140px;
+  color: #2b7fff;
+}
+.main-clinic-zone {
+  display: inline-block;
+  vertical-align: top;
+  font-family: Play-bold;
+  font-size: 140px;
+  color: #2b7fff;
+  margin-top: -26px;
+  margin-left: 0px;
+}

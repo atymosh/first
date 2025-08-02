@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Play-bold";
+    src: url(./Play-Bold.ttf);
+}
+@font-face {
+    font-family: "Play-regular";
+    src: url(./Play-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto-regular";
+    src: url(./static/Roboto-Regular.ttf);
+}
